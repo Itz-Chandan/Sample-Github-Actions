@@ -2,14 +2,14 @@ name: "Hello world workflow"
 
 # Controls when the action will run.
 on:
-    push:
+   push:
         branches:
             - main
             - production
 
              jobs:
                 hello_world:
-                    runs-on: ubintu-latest
+                    runs-on: ubuntu-latest
                     steps:
                         - name: "print hello world"
                             run: echo : "Hello world"
