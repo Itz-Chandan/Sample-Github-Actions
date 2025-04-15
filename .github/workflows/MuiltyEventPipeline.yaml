@@ -8,6 +8,6 @@ on:
 jobs:
     on-push: # Job name
         runs-on: ubuntu-latest
-        steps:
+         steps:
             - name: "Running on main push"
             run: echo "Running on main push"
