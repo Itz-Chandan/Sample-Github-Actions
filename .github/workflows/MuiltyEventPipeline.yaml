@@ -3,6 +3,7 @@ on:
     push: # Event: 
         branches:
             - main
+            - test
 
 jobs:
     on-push: # Job name
