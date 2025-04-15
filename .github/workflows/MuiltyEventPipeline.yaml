@@ -1,0 +1,12 @@
+name: "Multi event pipeline / workflow" # Name of the pipeline
+on:
+    push: # Event: 
+        branches:
+            - main
+
+jobs:
+    on-push: # Job name
+        runs-on: ubuntu-latest
+        steps:
+            - name: "Running on main push"
+            run: echo "Running on main push"
